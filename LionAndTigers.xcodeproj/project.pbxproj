@@ -13,6 +13,7 @@
 		4FFC2FA71A8954E70071BAB5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FFC2FA61A8954E70071BAB5 /* Images.xcassets */; };
 		4FFC2FAA1A8954E70071BAB5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FFC2FA81A8954E70071BAB5 /* LaunchScreen.xib */; };
 		4FFC2FB61A8954E70071BAB5 /* LionAndTigersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFC2FB51A8954E70071BAB5 /* LionAndTigersTests.swift */; };
+		4FFC2FC01A895F520071BAB5 /* Tiger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFC2FBF1A895F520071BAB5 /* Tiger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		4FFC2FAF1A8954E70071BAB5 /* LionAndTigersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LionAndTigersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FFC2FB41A8954E70071BAB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FFC2FB51A8954E70071BAB5 /* LionAndTigersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LionAndTigersTests.swift; sourceTree = "<group>"; };
+		4FFC2FBF1A895F520071BAB5 /* Tiger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tiger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				4FFC2F9F1A8954E70071BAB5 /* AppDelegate.swift */,
 				4FFC2FA11A8954E70071BAB5 /* ViewController.swift */,
 				4FFC2FA31A8954E70071BAB5 /* Main.storyboard */,
+				4FFC2FBF1A895F520071BAB5 /* Tiger.swift */,
 				4FFC2FA61A8954E70071BAB5 /* Images.xcassets */,
 				4FFC2FA81A8954E70071BAB5 /* LaunchScreen.xib */,
 				4FFC2F9D1A8954E70071BAB5 /* Supporting Files */,
@@ -161,6 +164,7 @@
 				TargetAttributes = {
 					4FFC2F991A8954E70071BAB5 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = ZB6CB779KQ;
 					};
 					4FFC2FAE1A8954E70071BAB5 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -213,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FFC2FA21A8954E70071BAB5 /* ViewController.swift in Sources */,
+				4FFC2FC01A895F520071BAB5 /* Tiger.swift in Sources */,
 				4FFC2FA01A8954E70071BAB5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,9 +343,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LionAndTigers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -348,9 +356,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LionAndTigers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
