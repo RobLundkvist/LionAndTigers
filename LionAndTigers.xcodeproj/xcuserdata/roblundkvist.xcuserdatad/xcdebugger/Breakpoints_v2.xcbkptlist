@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LionAndTigers/ViewController.swift"
-            timestampString = "446321911.526112"
+            timestampString = "446324874.505525"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
             landmarkName = "nextBarButtonPressed(_:)"
             landmarkType = "5">
          </BreakpointContent>
