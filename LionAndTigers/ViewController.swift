@@ -32,6 +32,7 @@ class ViewController: UIViewController {
         myTigers.append(myTiger)
         
         myTiger.chuff()
+        myTiger.chuffANumberOfTimes(5, isLoud: true)
         
         println("My tiger's name is \(myTiger.name), its' age is \(myTiger.age), its' breed is \(myTiger.breed) and its' image is \(myTiger.image)")
         
