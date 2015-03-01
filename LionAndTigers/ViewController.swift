@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var ageLabel: UILabel!
     @IBOutlet weak var breedLabel: UILabel!
+    @IBOutlet weak var randomFactLabel: UILabel!
     
     var myTigers:[Tiger] = []
     
@@ -42,6 +43,7 @@ class ViewController: UIViewController {
         nameLabel.text = myTiger.name
         ageLabel.text = "\(myTiger.age)"
         breedLabel.text = myTiger.breed
+        randomFactLabel.text = myTiger.raddomDact()
         
         var secondTiger = Tiger()
         secondTiger.name = "Tigress"
@@ -102,7 +104,7 @@ class ViewController: UIViewController {
             self.nameLabel.text = tiger.name
             self.ageLabel.text = "\(tiger.age)"
             self.breedLabel.text = tiger.breed
-            
+            self.randomFactLabel.text = tiger.raddomDact()
             }, completion: {
                 (finished: Bool) -> () in
         })
