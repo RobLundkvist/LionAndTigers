@@ -36,4 +36,24 @@ struct Tiger {
             }
         
     }
+    
+    func ageIntTigerYearsFromAge (regularAge:Int) -> Int {
+        let newAge = regularAge * 3
+        return newAge
+    }
+    
+    func raddomDact() -> String {
+        let randomNumber = Int(arc4random_uniform(UInt32(3)))
+        var randomFact:String
+        
+        if randomNumber == 0 {
+            randomFact = "The tiger is the biggest spieces in the cat family"
+        } else if randomNumber == 1 {
+            randomFact = "Tigers can reach a length of 3.3 meters"
+        } else {
+            randomFact = "A group of tigers is known as an 'ambush' or 'streak'"
+        }
+        
+        return randomFact
+    }
 }
